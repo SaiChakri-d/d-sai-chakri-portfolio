@@ -1,0 +1,28 @@
+.active {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+span {
+  padding: 5px;
+  margin: 10px 0px;
+}
+
+.right > * {
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+
+.right > *:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.navbar {
+  background-color: transparent;
+}
+
+.logo {
+  font-family: "Permanent Marker", cursive;
+}

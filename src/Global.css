@@ -1,0 +1,10 @@
+/* main color scheme */
+:root {
+  --primary: #ef0d50;
+  --secondary: #e5bace;
+  --tertiary: #e1f2f7;
+  --accent: magenta;
+  --light: #eb3a70;
+  --white: #ffffff;
+  --black: #000000;
+}
