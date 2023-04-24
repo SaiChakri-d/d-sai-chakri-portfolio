@@ -7,17 +7,8 @@ import todolist from "./components/proimages/todolist.png";
 
 export const techStack = [
   {
-    name: "Express",
-    link: "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png",
-  },
-
-  {
-    name: "NodeJS",
-    link: "https://static-00.iconduck.com/assets.00/node-js-icon-227x256-913nazt0.png",
-  },
-  {
-    name: "Postman",
-    link: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+    name: "JavaScript",
+    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   },
   {
     name: "HTML",
@@ -28,21 +19,33 @@ export const techStack = [
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
   },
   {
+    name: "React",
+    link: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+  },
+  {
+    name: "NodeJS",
+    link: "https://static-00.iconduck.com/assets.00/node-js-icon-227x256-913nazt0.png",
+  },
+  {
+    name: "Express",
+    link: "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png",
+  },
+
+  {
+    name: "Postman",
+    link: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+  },
+
+  {
     name: "Bootstrap",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg",
   },
-  {
-    name: "Javascript",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-  },
+
   {
     name: "Tailwind CSS",
     link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
   },
-  {
-    name: "React",
-    link: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
-  },
+
   {
     name: "MySql",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg",
@@ -54,6 +57,14 @@ export const techStack = [
   {
     name: "Git/GiHub",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg",
+  },
+  {
+    name: "VS Code",
+    link: "https://code.visualstudio.com/assets/branding/app-icon.png",
+  },
+  {
+    name: "TypeScript",
+    link: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
   },
 ];
 

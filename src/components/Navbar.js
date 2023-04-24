@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="navbar flex justify-between h-14">
         <div className="left flex justify-center items-center">
           <Link to="/">
-            <div className="logo cursor-pointer text-3xl">DSC</div>
+            <div className="logo cursor-pointer text-5xl">DSC</div>
           </Link>
         </div>
         {isMatched ? (

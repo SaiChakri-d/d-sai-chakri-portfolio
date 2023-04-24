@@ -86,17 +86,20 @@ function Contact() {
         }) => (
           <Form ref={form} onSubmit={handleSubmit}>
             <section className="text-gray-600 body-font">
-              <div className="container px-5 sm:py-24 mx-auto flex">
+              <div className="text-center px-auto">
+         
+              </div>
+              <div className="container px-5 sm:py-12 mx-auto flex">
                 <div className="lg:w-1/3 md:w-1/2 mt-0 bg-white rounded-lg p-8 flex flex-col md:mx-auto w-full md:mt-0 z-10 shadow-md">
                   <h2 className="text-center text-gray-900 text-3xl mb-1 font-medium title-font">
-                    Send me Message
+                    Send Me A Message
                   </h2>
                   <div className="relative mb-4">
                     <label
                       htmlFor="name"
                       className="leading-7 text-lg text-gray-600"
                     >
-                      Name
+                      Name:
                     </label>
                     <input
                       type="text"
@@ -116,7 +119,7 @@ function Contact() {
                       htmlFor="email"
                       className="leading-7 text-lg text-gray-600"
                     >
-                      Email
+                      Email:
                     </label>
                     <input
                       type="email"
@@ -136,7 +139,7 @@ function Contact() {
                       htmlFor="message"
                       className="leading-7 text-lg text-gray-600"
                     >
-                      Message
+                      Message:
                     </label>
                     <textarea
                       id="message"
@@ -152,10 +155,9 @@ function Contact() {
                   </div>
                   <button
                     type="submit"
-                    className="send-button border-0 py-2 px-6 focus:outline-none rounded text-lg"
-                    // className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                    className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
                   >
-                    Send
+                    Submit
                   </button>
                 </div>
               </div>

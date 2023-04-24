@@ -1,7 +1,5 @@
 import React from "react";
 import { projects } from "../Constants";
-import "./Projects.css";
-
 
 const Projects = () => {
   return (
@@ -24,7 +22,7 @@ const Projects = () => {
                   <p className="text-gray-700 text-base">{item.description}</p>
                 </div>
 
-                <div className="flex flex-col justify-between bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg">
+                <div className="flex flex-col justify-between bg-gray-300 md:m-4 mx-2 mt-6 rounded-lg">
                   <div className="px-1 py-3">
                   <img src={item.image} alt="project" />
                   </div>
@@ -32,13 +30,13 @@ const Projects = () => {
 
                 <div className="buttons mx-5 mb-5 space-x-3">
                   <a href={item.github} target="_blank">
-                    <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-l">
-                      Code
+                    <button className="text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900">
+                      GitHub Code
                     </button>
                   </a>
                   <a href={item.netlify} target="_blank">
-                    <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded-r">
-                      Demo
+                    <button className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+                      Live Link
                     </button>
                   </a>
                 </div>
@@ -46,9 +44,9 @@ const Projects = () => {
             </div>
           ))}
         </div>
-        <div className="buttons flex justify-center">
+        <div className="buttons flex justify-center mb-9 pb-9">
           <a href="https://github.com/SaiChakri-d" target="_blank">
-            <button className="find-more px-3 py-2 rounded-md">
+            <button className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">
               Find More
             </button>
           </a>

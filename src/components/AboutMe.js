@@ -1,6 +1,7 @@
 import React from "react";
 import { techStack } from "../Constants";
 import { motion } from "framer-motion";
+import dpSai from "./dpSai.jpg";
 
 export default function AboutMe() {
   return (
@@ -13,27 +14,45 @@ export default function AboutMe() {
       </h1>
       <div className="info flex flex-col-reverse sm:grid sm:grid-cols-2">
         <div className="info-text sm:span-col-8 lg:mt-5">
-          <p>I'm a Full Stack Developer based in Bangalore, IN.</p>
-          <br />
           <p>
-            I've graduated from RV College of Engineering with degree in
-            Telecommunication Engineering. I always had fond of learning new skills and
-            technologies, that’s how I got into Web Development while studying
-            in college. I mainly use React for frontend and NodeJS for backend.
+            I'm a Full Stack Developer Trainee based in Bangalore, India. I'm
+            pursuing Full Stack Developer Programme at GUVI Zen-Class IITM
+            Research Park.
           </p>
           <br />
           <p>
-            When I am not coding, I like to explore about new Smartphones and Gadgets, listen some music, play mobile games, play badminton, learn new skills.
+            I've graduated from RV College of Engineering, Bangalore with degree
+            in Telecommunication Engineering. I always had fond of learning new
+            skills and technologies, that’s how I got into Web Development while
+            studying in college. I mainly use React for frontend and NodeJS for
+            backend.
+          </p>
+          <br />
+          <p>
+            When I am not coding, I like to explore about new smartphones and
+            gadgets, listen some music, play mobile games, play badminton, learn
+            new skills.
           </p>
         </div>
-        <div className="hidden lg:block img-wrapper my-12 sm:my-0 sm:span-col-4 lg:flex-row-reverse">
-          <div className="mx-auto w-10/12 sm:w-2/3 lg:w-1/2 xl:w-1/3">
-            {/* <img src="https://cdn3.vectorstock.com/i/1000x1000/48/37/web-developer-design-vector-5884837.jpg"></img> */}
+        <div className="lg:block img-wrapper my-12 sm:my-0 sm:span-col-4 lg:flex-row-reverse">
+          <div className="mx-auto w-10/12 sm:w-2/3">
+            <img src={dpSai} alt="dp"></img>
           </div>
         </div>
       </div>
 
-      <div className="tech-list mt-20">
+      <div className="mt-9">
+        <a href="https://drive.google.com/file/d/1tIKur3031Nzo6T_VsuAznns8xlDnXqJA/view?usp=sharing" target="_blank">
+        <button
+          type="button"
+          class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
+        >
+          Click Here For Resume
+        </button>
+        </a>
+      </div>
+
+      <div className="tech-list mt-12">
         <h1
           className="text-3xl sm:text-4xl lg:text-5xl my-3"
           style={{ color: "var(--primary)" }}
@@ -41,7 +60,7 @@ export default function AboutMe() {
           Technologies I work with
         </h1>
         {
-          <div className="flex justify-center">
+          <div className="flex justify-center pb-9">
             <motion.div className="flex flex-wrap mt-4 justify-center sm:justify-between">
               {techStack.map((el, index) => (
                 <motion.div

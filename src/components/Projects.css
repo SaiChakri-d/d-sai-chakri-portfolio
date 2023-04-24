@@ -1,9 +1,0 @@
-.find-more {
-  color: white;
-  background-color: var(--primary);
-  opacity: 0.7;
-}
-
-.find-more:hover {
-  opacity: 1;
-}

@@ -37,10 +37,10 @@ function Home() {
           className="text-4xl py-1 mx-3 md:text-7xl"
           style={styles.textHeading}
         >
-          Hi, I'm Sai Chakri👋
+          Hi, I'm Sai Chakri 👋
         </div>
         <div className="text-xl md:text-3xl" style={styles.textDescription}>
-          A Full stack developer trainee
+         A Full Stack Developer Trainee
         </div>
       </div>
       <ParticlesBg />
