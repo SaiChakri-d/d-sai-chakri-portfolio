@@ -4,6 +4,7 @@ import cpoffice from "./components/proimages/cpoffice.png";
 import studentmentor from "./components/proimages/studentmentor.png";
 import ecommcart from "./components/proimages/ecommcart.png";
 import todolist from "./components/proimages/todolist.png";
+import YTclone from "./components/proimages/YTclone.png";
 
 export const techStack = [
   {
@@ -91,6 +92,14 @@ export const projects = [
     image: money,
     description:
       "Money Manager created using MERN stack, has adding transaction (income or expense), Transaction History page, allocating budget, all CRUD operations on money, info, etc.",
+  },
+  {
+    title: "YouTube Clone App",
+    github: "https://github.com/SaiChakri-d/youtube-clone-ts-app",
+    netlify: "https://dancing-trifle-c8c463.netlify.app/",
+    image: YTclone,
+    description:
+      "YouTube clone created using ReactJS and TypeScript with YouTube Data API intergration. Functionalities are Home page, Search page, Static Sidebar, Recommended page videos, etc.",
   },
   {
     title: "Capacity Planning for an Office",

@@ -42,7 +42,7 @@ export default function AboutMe() {
       </div>
 
       <div className="mt-9">
-        <a href="https://drive.google.com/file/d/1tIKur3031Nzo6T_VsuAznns8xlDnXqJA/view?usp=sharing" target="_blank">
+        <a href="https://drive.google.com/file/d/1idtjYC9_pr5C5TuOouH5RhSMC3L3GXph/view?usp=sharing" target="_blank">
         <button
           type="button"
           class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
