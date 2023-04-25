@@ -79,7 +79,7 @@ export const pages = [
 export const projects = [
   {
     title: "dsPizzeria Pizza Delivery App",
-    github: "https://github.com/pranaykothari109/dsPizzeria-frontend.git",
+    github: "https://github.com/SaiChakri-d/dsPizzeria-frontend.git",
     netlify: "https://dsPizzeria-by-sai.netlify.app/",
     image: dsP,
     description:

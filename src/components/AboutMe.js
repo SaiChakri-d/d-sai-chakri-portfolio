@@ -41,7 +41,7 @@ export default function AboutMe() {
         </div>
       </div>
 
-      <div className="mt-9">
+      <div className="resume-button mt-9">
         <a href="https://drive.google.com/file/d/1idtjYC9_pr5C5TuOouH5RhSMC3L3GXph/view?usp=sharing" target="_blank">
         <button
           type="button"
