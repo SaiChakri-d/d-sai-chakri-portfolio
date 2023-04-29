@@ -1,6 +1,6 @@
 import dsP from "./components/proimages/dsPizza.png";
 import money from "./components/proimages/money.png";
-import cpoffice from "./components/proimages/cpoffice.png";
+import Csynergy from "./components/proimages/Csynergy.png";
 import studentmentor from "./components/proimages/studentmentor.png";
 import ecommcart from "./components/proimages/ecommcart.png";
 import todolist from "./components/proimages/todolist.png";
@@ -102,11 +102,11 @@ export const projects = [
       "YouTube clone created using ReactJS and TypeScript with YouTube Data API intergration. Functionalities are Home page, Search page, Static Sidebar, Recommended page videos, etc.",
   },
   {
-    title: "Capacity Planning for an Office",
+    title: "Csynergy - A Capacity Planner for Offices",
     github:
-      "https://github.com/SaiChakri-d/capacity-planning-for-office-frontend",
-    netlify: "https://capacity-planning-deployment-sai.netlify.app/",
-    image: cpoffice,
+      "https://github.com/SaiChakri-d/Csynergy-capacity-planner-fe",
+    netlify: "https://csynergy-capplan-sai.netlify.app/",
+    image: Csynergy,
     description:
       "Simple Capcity planning tool created using MERN stack helps HRs to add new employee and manage the existing employees and assigin new tasks to them and easily manage their workload.",
   },
