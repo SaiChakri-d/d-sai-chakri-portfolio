@@ -1,7 +1,7 @@
 import React from "react";
 import { techStack } from "../Constants";
 import { motion } from "framer-motion";
-import dpSai from "./dpSai.jpg";
+import dpSai from "./dpSai1.jpg";
 
 export default function AboutMe() {
   return (
@@ -10,7 +10,7 @@ export default function AboutMe() {
         className="text-3xl sm:text-4xl lg:text-5xl my-3"
         style={{ color: "var(--primary)" }}
       >
-        Hey, I'm Chakri 👋
+        Hi, I'm Chakri👋
       </h1>
       <div className="info flex flex-col-reverse sm:grid sm:grid-cols-2">
         <div className="info-text sm:span-col-8 lg:mt-5">
@@ -34,8 +34,8 @@ export default function AboutMe() {
             new skills.
           </p>
         </div>
-        <div className="lg:block img-wrapper my-12 sm:my-0 sm:span-col-4 lg:flex-row-reverse">
-          <div className="mx-auto w-10/12 sm:w-2/3">
+        <div className="lg:block img-wrapper my-12 sm:my-0 sm:span-col-4 lg:flex-wrap-reverse">
+          <div className="mx-auto w-10/12 sm:w-1/2">
             <img src={dpSai} alt="dp"></img>
           </div>
         </div>

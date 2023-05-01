@@ -9,7 +9,7 @@ import YTclone from "./components/proimages/YTclone.png";
 export const techStack = [
   {
     name: "JavaScript",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    link: "https://www.svgrepo.com/show/349419/javascript.svg",
   },
   {
     name: "HTML",
@@ -20,35 +20,31 @@ export const techStack = [
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
   },
   {
+    name: "TypeScript",
+    link: "https://www.svgrepo.com/show/374146/typescript-official.svg",
+  },
+  {
     name: "React",
-    link: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+    link: "https://www.svgrepo.com/show/452092/react.svg",
   },
-  {
-    name: "NodeJS",
-    link: "https://static-00.iconduck.com/assets.00/node-js-icon-227x256-913nazt0.png",
-  },
-  {
-    name: "Express",
-    link: "https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png",
-  },
-
-  {
-    name: "Postman",
-    link: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
-  },
-
   {
     name: "Bootstrap",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg",
   },
-
   {
     name: "Tailwind CSS",
     link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
   },
-
   {
-    name: "MySql",
+    name: "NodeJS",
+    link: "https://www.svgrepo.com/show/378837/node.svg",
+  },
+  {
+    name: "ExpressJS",
+    link: "https://www.svgrepo.com/show/330398/express.svg",
+  },
+  {
+    name: "MySQL",
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg",
   },
   {
@@ -56,16 +52,25 @@ export const techStack = [
     link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg",
   },
   {
-    name: "Git/GiHub",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg",
+    name: "Postman",
+    link: "https://www.svgrepo.com/show/354202/postman-icon.svg",
+  },
+  {
+    name: "Git/GitHub",
+    link: "https://www.svgrepo.com/show/452210/git.svg",
   },
   {
     name: "VS Code",
-    link: "https://code.visualstudio.com/assets/branding/app-icon.png",
+    link: "https://www.svgrepo.com/show/452129/vs-code.svg",
+  },
+
+  {
+    name: "Netlify",
+    link: "https://seeklogo.com/images/N/netlify-icon-logo-7CF6AA9DC7-seeklogo.com.png",
   },
   {
-    name: "TypeScript",
-    link: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png",
+    name: "Vercel",
+    link: "https://www.svgrepo.com/show/327408/logo-vercel.svg",
   },
 ];
 
@@ -94,14 +99,6 @@ export const projects = [
       "Money Manager created using MERN stack, has adding transaction (income or expense), Transaction History page, allocating budget, all CRUD operations on money, info, etc.",
   },
   {
-    title: "YouTube Clone App",
-    github: "https://github.com/SaiChakri-d/youtube-clone-ts-app",
-    netlify: "https://dancing-trifle-c8c463.netlify.app/",
-    image: YTclone,
-    description:
-      "YouTube clone created using ReactJS and TypeScript with YouTube Data API intergration. Functionalities are Home page, Search page, Static Sidebar, Recommended page videos, etc.",
-  },
-  {
     title: "Csynergy - A Capacity Planner for Offices",
     github:
       "https://github.com/SaiChakri-d/Csynergy-capacity-planner-fe",
@@ -109,6 +106,14 @@ export const projects = [
     image: Csynergy,
     description:
       "Simple Capcity planning tool created using MERN stack helps HRs to add new employee and manage the existing employees and assigin new tasks to them and easily manage their workload.",
+  },
+  {
+    title: "YouTube Clone App",
+    github: "https://github.com/SaiChakri-d/youtube-clone-ts-app",
+    netlify: "https://dancing-trifle-c8c463.netlify.app/",
+    image: YTclone,
+    description:
+      "YouTube clone created using ReactJS and TypeScript with YouTube Data API intergration. Functionalities are Home page, Search page, Static Sidebar, Recommended page videos, etc.",
   },
   {
     title: "Student Mentor Panel",
