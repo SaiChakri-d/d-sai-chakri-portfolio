@@ -89,15 +89,15 @@ function Contact() {
               <div className="text-center px-auto">
          
               </div>
-              <div className="container px-auto sm:py-14 mx-auto flex">
+              <div className="container px-7 sm:py-14 mx-auto flex">
                 <div className="lg:w-1/3 md:w-1/2 mt-0 bg-white rounded-lg p-8 flex flex-col md:mx-auto w-full md:mt-0 z-10 shadow-md">
-                  <h2 className="text-center text-gray-900 text-3xl mb-1 font-medium title-font">
+                  <h2 className="text-center text-gray-900 text-3xl mb-3 font-medium title-font">
                     Send me a message
                   </h2>
                   <div className="relative mb-4">
                     <label
                       htmlFor="name"
-                      className="leading-7 text-lg text-gray-600"
+                      className="leading-10 text-lg text-gray-600"
                     >
                       Name
                     </label>
@@ -118,7 +118,7 @@ function Contact() {
                   <div className="relative mb-4">
                     <label
                       htmlFor="email"
-                      className="leading-7 text-lg text-gray-600"
+                      className="leading-10 text-lg text-gray-600"
                     >
                       Email
                     </label>
@@ -139,7 +139,7 @@ function Contact() {
                   <div className="relative mb-4">
                     <label
                       htmlFor="message"
-                      className="leading-7 text-lg text-gray-600"
+                      className="leading-10 text-lg text-gray-600"
                     >
                       Message
                     </label>

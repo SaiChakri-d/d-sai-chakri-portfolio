@@ -16,13 +16,13 @@ const Projects = () => {
               className="card-wrapper mx-auto my-3 flex justify-center"
               key={index}
             >
-              <div className="flex flex-col justify-between bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg">
+              <div className="flex flex-col justify-between bg-gray-50 md:m-4 mx-2 my-6 rounded-lg">
                 <div className="px-6 py-4">
                   <div className="font-bold text-xl mb-2">{item.title}</div>
                   <p className="text-gray-700 text-base">{item.description}</p>
                 </div>
 
-                <div className="flex flex-col justify-between bg-gray-300 md:m-4 mx-2 mt-6 rounded-lg">
+                <div className="flex flex-col justify-between bg-gray-300 md:m-4 mx-2 my-6 rounded-lg">
                   <div className="px-1 py-3">
                   <img src={item.image} alt="project" />
                   </div>

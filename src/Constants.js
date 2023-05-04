@@ -5,6 +5,7 @@ import studentmentor from "./components/proimages/studentmentor.png";
 import ecommcart from "./components/proimages/ecommcart.png";
 import todolist from "./components/proimages/todolist.png";
 import YTclone from "./components/proimages/YTclone.png";
+import dshort from "./components/proimages/dshort.png";
 
 export const techStack = [
   {
@@ -83,7 +84,7 @@ export const pages = [
 
 export const projects = [
   {
-    title: "dsPizzeria Pizza Delivery App",
+    title: "dsPizzeria - A Pizza Delivery App",
     github: "https://github.com/SaiChakri-d/dsPizzeria-frontend.git",
     netlify: "https://dsPizzeria-by-sai.netlify.app/",
     image: dsP,
@@ -91,9 +92,9 @@ export const projects = [
       "Pizza Delivery App created using MERN stack and STRIPE Payment gateway. This app allows users to order fresh pizzas and track the order details. Also has admin panel which allows all pizza inventory management.",
   },
   {
-    title: "Money Manager App",
+    title: "chkBudget - A Money Manager App",
     github: "https://github.com/SaiChakri-d/moneymanager-sai-frontend",
-    netlify: "https://moneymanager-by-sai.netlify.app/",
+    netlify: "https://chkbudget-by-saichakri.netlify.app/",
     image: money,
     description:
       "Money Manager created using MERN stack, has adding transaction (income or expense), Transaction History page, allocating budget, all CRUD operations on money, info, etc.",
@@ -114,6 +115,14 @@ export const projects = [
     image: YTclone,
     description:
       "YouTube clone created using ReactJS and TypeScript with YouTube Data API intergration. Functionalities are Home page, Search page, Static Sidebar, Recommended page videos, etc.",
+  },
+  {
+    title: "dshorts URL Shortener App",
+    github: "https://github.com/SaiChakri-d/url-shortener-by-sai-client",
+    netlify: "https://url-shortener-by-saichakri.netlify.app/",
+    image: dshort,
+    description:
+      "An app created using React, Bootstrap and MUI. This app allows users to shorten lengthy URLs to short URLs to share them easily across web.",
   },
   {
     title: "Student Mentor Panel",

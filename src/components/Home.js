@@ -1,5 +1,6 @@
 import React from "react";
 import ParticlesBg from "./ParticlesBg";
+import "../Global.css"
 const styles = {
   bgImg: {
     backgroundImage: "url(../assets/Snowbg-01.jpg)",
@@ -37,7 +38,7 @@ function Home() {
           className="text-4xl py-1 mx-3 md:text-7xl"
           style={styles.textHeading}
         >
-          Hi! My name is Sai Chakri D👋
+          Hi! My name is Sai Chakri D<span class="wave">👋</span>
         </div>
         <div className="text-xl md:text-3xl" style={styles.textDescription}>
          I'm a Full Stack Developer Trainee

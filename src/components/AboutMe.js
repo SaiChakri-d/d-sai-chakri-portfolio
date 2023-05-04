@@ -42,13 +42,16 @@ export default function AboutMe() {
       </div>
 
       <div className="resume-button mt-9">
-        <a href="https://drive.google.com/file/d/1idtjYC9_pr5C5TuOouH5RhSMC3L3GXph/view?usp=sharing" target="_blank">
-        <button
-          type="button"
-          class="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
+        <a
+          href="https://drive.google.com/file/d/1idtjYC9_pr5C5TuOouH5RhSMC3L3GXph/view?usp=sharing"
+          target="_blank"
         >
-          Click Here For Resume
-        </button>
+          <button
+            type="button"
+            className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
+          >
+            Click Here For Resume
+          </button>
         </a>
       </div>
 
@@ -76,11 +79,11 @@ export default function AboutMe() {
                     },
                     hidden: { opacity: 1, y: 80 },
                   }}
-                  className="py-2 px-4 bg-gray-50 md:m-4 mx-2 mt-6 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40"
+                  className="px-3 py-2 bg-gray-50 md:m-4 mx-3 my-2 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40"
                   key={index}
                 >
                   <img alt={`image${index}`} src={el.link} className="w-12" />
-                  <h4 className="text-md ml-4">{el.name}</h4>
+                  <h4 className="text-md ml-3 text-center">{el.name}</h4>
                 </motion.div>
               ))}
             </motion.div>
