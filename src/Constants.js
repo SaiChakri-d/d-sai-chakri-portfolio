@@ -102,8 +102,8 @@ export const projects = [
   {
     title: "Csynergy - A Capacity Planner for Offices",
     github:
-      "https://github.com/SaiChakri-d/Csynergy-capacity-planner-fe",
-    netlify: "https://csynergy-capplan-sai.netlify.app/",
+      "https://github.com/SaiChakri-d/Csynergy-capacity-planner-client",
+    netlify: "https://csynergy-capacityplanner-by-saichakri.netlify.app/",
     image: Csynergy,
     description:
       "Simple Capcity planning tool created using MERN stack helps HRs to add new employee and manage the existing employees and assigin new tasks to them and easily manage their workload.",
