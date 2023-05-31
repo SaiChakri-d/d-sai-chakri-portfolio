@@ -9,26 +9,26 @@ const Projects = () => {
           My Projects
         </h1>
       </div>
-      <div className="projects-container container mx-auto mt-3">
-        <div className="container-wrapper rounded-2xl grid  sm:grid-cols-2 lg:grid-cols-3 gap-3">
+      <div className="projects-container container mx-auto mt-6">
+        <div className="container-wrapper rounded-2xl grid sm:grid-cols-2 lg:grid-cols-3 gap-2">
           {projects.map((item, index) => (
             <div
-              className="card-wrapper mx-auto my-3 flex justify-center"
+              className="card-wrapper mx-auto my-0 flex justify-center"
               key={index}
             >
               <div className="flex flex-col justify-between bg-gray-50 md:m-4 mx-2 my-6 rounded-lg">
-                <div className="px-6 py-4">
+                <div className="px-5 pt-5 pb-2">
                   <div className="font-bold text-xl mb-2">{item.title}</div>
                   <p className="text-gray-700 text-base">{item.description}</p>
                 </div>
 
                 <div className="flex flex-col justify-between bg-gray-300 md:m-4 mx-2 my-6 rounded-lg">
-                  <div className="px-1 py-3">
+                  <div className="p-2">
                   <img src={item.image} alt="project" />
                   </div>
                 </div>
 
-                <div className="buttons mx-5 mb-5 space-x-3">
+                <div className="buttons flex mx-4 my-2 space-x-3">
                   <a href={item.github} target="_blank">
                     <button className="text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900">
                       GitHub Code

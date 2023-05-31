@@ -7,6 +7,7 @@ import todolist from "./components/proimages/todolist.png";
 import YTclone from "./components/proimages/YTclone.png";
 import dshort from "./components/proimages/dshort.png";
 import chat from "./components/proimages/chitchat.png";
+import realtor from "./components/proimages/realtor.png";
 
 export const techStack = [
   {
@@ -85,6 +86,14 @@ export const pages = [
 
 export const projects = [
   {
+    title: "Realtor Website Clone",
+    github: "https://github.com/SaiChakri-d/chitchat-app",
+    netlify: "https://chitchat-app-saichakri.netlify.app/",
+    image: realtor,
+    description:
+      "A clone of realtor.com created using React, Tailwind and Firebase. This app enables users to view listed flats and contact the landlords. It consists of Login, Register pages with Google account, Listing pages, etc. Registered users/landlords can add, edit or delete the listings.",
+  },
+  {
     title: "ChitChat - A Chat App",
     github: "https://github.com/SaiChakri-d/chitchat-app",
     netlify: "https://chitchat-app-saichakri.netlify.app/",
@@ -102,8 +111,7 @@ export const projects = [
   },
   {
     title: "Csynergy - A Capacity Planner for Offices",
-    github:
-      "https://github.com/SaiChakri-d/Csynergy-capacity-planner-client",
+    github: "https://github.com/SaiChakri-d/Csynergy-capacity-planner-client",
     netlify: "https://csynergy-capacityplanner-by-saichakri.netlify.app/",
     image: Csynergy,
     description:

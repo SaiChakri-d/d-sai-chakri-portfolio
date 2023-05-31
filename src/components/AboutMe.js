@@ -34,7 +34,7 @@ export default function AboutMe() {
             new skills.
           </p>
         </div>
-        <div className="lg:block img-wrapper my-12 sm:my-0 sm:span-col-4 lg:flex-wrap-reverse">
+        <div className="lg:block img-wrapper my-6 justify-content sm:my-0 sm:span-col-4 lg:flex-wrap-reverse">
           <div className="mx-auto w-10/12 sm:w-1/2">
             <img src={dpSai} alt="dp"></img>
           </div>
@@ -79,7 +79,7 @@ export default function AboutMe() {
                     },
                     hidden: { opacity: 1, y: 80 },
                   }}
-                  className="px-3 py-2 bg-gray-50 md:m-4 mx-3 my-2 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40"
+                  className="px-3 py-2 bg-gray-50 m-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40"
                   key={index}
                 >
                   <img alt={`image${index}`} src={el.link} className="w-12" />
