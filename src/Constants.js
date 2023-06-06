@@ -1,8 +1,6 @@
 import dsP from "./components/proimages/dsPizza.png";
 import money from "./components/proimages/money.png";
 import Csynergy from "./components/proimages/Csynergy.png";
-import studentmentor from "./components/proimages/studentmentor.png";
-import ecommcart from "./components/proimages/ecommcart.png";
 import todolist from "./components/proimages/todolist.png";
 import YTclone from "./components/proimages/YTclone.png";
 import dshort from "./components/proimages/dshort.png";
@@ -87,8 +85,8 @@ export const pages = [
 export const projects = [
   {
     title: "Realtor Website Clone",
-    github: "https://github.com/SaiChakri-d/chitchat-app",
-    netlify: "https://chitchat-app-saichakri.netlify.app/",
+    github: "https://github.com/SaiChakri-d/realtor-clone-react",
+    netlify: "https://realtor-clone-react-gold.vercel.app/",
     image: realtor,
     description:
       "A clone of realtor.com created using React, Tailwind and Firebase. This app enables users to view listed flats and contact the landlords. It consists of Login, Register pages with Google account, Listing pages, etc. Registered users/landlords can add, edit or delete the listings.",
@@ -140,22 +138,6 @@ export const projects = [
     image: dshort,
     description:
       "An app created using React, Bootstrap and MUI. This app allows users to shorten lengthy URLs to short URLs to share them easily across web.",
-  },
-  {
-    title: "Student Mentor Panel",
-    github: "https://github.com/SaiChakri-d/student-teacher-management-v3",
-    netlify: "https://student-teacher-management-v3.netlify.app/",
-    image: studentmentor,
-    description:
-      "An app created using React, Bootstrap and MUI. This app allows admin user to add, remove and manage both student and teacher data.",
-  },
-  {
-    title: "Simple eCommerce Shop Cart",
-    github: "https://github.com/SaiChakri-d/eCommShopCart-reactTask",
-    netlify: "https://ecommerce-task-react-sai.netlify.app/",
-    image: ecommcart,
-    description:
-      "Simple eCommerce App created using React. This app enalbes user to add available item to the cart and remove the added item fromthe cart.",
   },
   {
     title: "To Do List",
