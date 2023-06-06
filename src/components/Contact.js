@@ -77,7 +77,7 @@ function Contact() {
             <section className="text-gray-600 body-font">
               <div className="text-center px-auto"></div>
               <div className="container px-7 sm:py-14 mx-auto flex">
-                <div className="lg:w-1/3 md:w-1/2 mt-0 bg-white rounded-lg p-8 flex flex-col md:mx-auto w-full md:mt-0 z-10 shadow-md">
+                <div className="lg:w-1/3 md:w-1/2 mt-0 bg-yellow-50 rounded-lg p-8 flex flex-col md:mx-auto w-full md:mt-0 z-10 shadow-md">
                   <h2 className="text-center text-gray-900 text-3xl mb-3 font-medium title-font">
                     Send me a message
                   </h2>
@@ -145,7 +145,7 @@ function Contact() {
                   </div>
                   <button
                     type="submit"
-                    className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-md px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
+                    className="focus:outline-none text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-md px-5 py-2.5 mb-2 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-900"
                   >
                     Submit
                   </button>
@@ -165,7 +165,10 @@ function Contact() {
                           height: "100%",
                           width: "100%",
                           "&:hover": {
-                            color: "#051094",
+                            color: "#0A66C2",
+                          },
+                          "&:active": {
+                            color: "#FEFCE8",
                           },
                         }}
                       />
@@ -184,7 +187,10 @@ function Contact() {
                           height: "100%",
                           width: "100%",
                           "&:hover": {
-                            color: "#051094",
+                            color: "#6e5494",
+                          },
+                          "&:active": {
+                            color: "#FEFCE8",
                           },
                         }}
                       />
@@ -203,7 +209,10 @@ function Contact() {
                           height: "100%",
                           width: "100%",
                           "&:hover": {
-                            color: "#051094",
+                            color: "#1da1f2",
+                          },
+                          "&:active": {
+                            color: "#FEFCE8",
                           },
                         }}
                       />

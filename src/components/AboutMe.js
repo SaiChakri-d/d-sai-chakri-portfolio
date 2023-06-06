@@ -49,7 +49,7 @@ export default function AboutMe() {
         >
           <button
             type="button"
-            className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-md px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
+            className="focus:outline-none text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-md px-5 py-2.5 mb-2 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-900"
           >
             Click Here For Resume
           </button>
@@ -80,7 +80,7 @@ export default function AboutMe() {
                     },
                     hidden: { opacity: 1, y: 80 },
                   }}
-                  className="px-3 py-2 bg-gray-50 m-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40"
+                  className="px-3 py-2 bg-yellow-50 m-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40"
                   key={index}
                 >
                   <img alt={`pic${index}`} src={el.link} className="w-12" />
