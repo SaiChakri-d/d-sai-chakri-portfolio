@@ -1,9 +1,11 @@
 import React, { useRef } from "react";
 import { Formik, Form } from "formik";
-import MailIcon from "@mui/icons-material/Mail";
 import * as Yup from "yup";
 import "./Contact.css";
 import emailjs from "@emailjs/browser";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import TwitterIcon from "@mui/icons-material/Twitter";
 
 function Contact() {
   const initialValues = {
@@ -55,19 +57,6 @@ function Contact() {
   };
 
   return (
-    // <div className="contact grid grid-rows-5">
-    //   <div className="left">
-    //     <img src={MailIcon} alt=""></img>
-    //     <a class="underline" href="mailto: saichakri.d@gmail.com?subject= &body= ">
-    //       saichakri.d@gmail.com
-    //     </a>
-    //   </div>
-    //   <div className="right">right container</div>
-    // </div>
-    // <div className="contact w-2/3 mt-3 mx-auto bg-slate-300">
-
-    // </div>
-
     <div className="Contact">
       <Formik
         initialValues={initialValues}
@@ -86,9 +75,7 @@ function Contact() {
         }) => (
           <Form ref={form} onSubmit={handleSubmit}>
             <section className="text-gray-600 body-font">
-              <div className="text-center px-auto">
-         
-              </div>
+              <div className="text-center px-auto"></div>
               <div className="container px-7 sm:py-14 mx-auto flex">
                 <div className="lg:w-1/3 md:w-1/2 mt-0 bg-white rounded-lg p-8 flex flex-col md:mx-auto w-full md:mt-0 z-10 shadow-md">
                   <h2 className="text-center text-gray-900 text-3xl mb-3 font-medium title-font">
@@ -158,10 +145,70 @@ function Contact() {
                   </div>
                   <button
                     type="submit"
-                    className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
+                    className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-md px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900"
                   >
                     Submit
                   </button>
+                </div>
+              </div>
+              {/* Links */}
+              <div className="h-24 bg-slate-300 mt-5 flex justify-center space-x-5">
+                <div className="w-10 md:w-16">
+                  <a
+                    href="https://www.linkedin.com/in/sai-chakri-d-ba3546278/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {
+                      <LinkedInIcon
+                        sx={{
+                          height: "100%",
+                          width: "100%",
+                          "&:hover": {
+                            color: "#051094",
+                          },
+                        }}
+                      />
+                    }
+                  </a>
+                </div>
+                <div className="w-10 md:w-16">
+                  <a
+                    href="https://github.com/SaiChakri-d/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {
+                      <GitHubIcon
+                        sx={{
+                          height: "100%",
+                          width: "100%",
+                          "&:hover": {
+                            color: "#051094",
+                          },
+                        }}
+                      />
+                    }
+                  </a>
+                </div>
+                <div className="w-10 md:w-16">
+                  <a
+                    href="https://twitter.com/dschakri117/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {
+                      <TwitterIcon
+                        sx={{
+                          height: "100%",
+                          width: "100%",
+                          "&:hover": {
+                            color: "#051094",
+                          },
+                        }}
+                      />
+                    }
+                  </a>
                 </div>
               </div>
             </section>

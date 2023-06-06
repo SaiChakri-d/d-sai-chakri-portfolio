@@ -10,7 +10,7 @@ import CloseIcon from "@mui/icons-material/Close";
 
 export const NavbarDrawer = ({ drawer, setDrawer, pages }) => {
   return (
-    <React.Fragment>
+    <React.Fragment> 
       <Drawer
         anchor="right"
         open={drawer}

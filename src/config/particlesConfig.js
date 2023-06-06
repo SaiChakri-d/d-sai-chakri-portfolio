@@ -191,7 +191,7 @@ const particlesConfig = {
       },
     },
     color: {
-      value: "#EF0D50",
+      value: "#051094",
       animation: {
         h: {
           count: 0,

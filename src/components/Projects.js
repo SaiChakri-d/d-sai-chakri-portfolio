@@ -29,12 +29,12 @@ const Projects = () => {
                 </div>
 
                 <div className="buttons flex mx-4 my-2 space-x-3">
-                  <a href={item.github} target="_blank">
+                  <a href={item.github} target="_blank" rel="noreferrer">
                     <button className="text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900">
                       GitHub Code
                     </button>
                   </a>
-                  <a href={item.netlify} target="_blank">
+                  <a href={item.netlify} target="_blank" rel="noreferrer">
                     <button className="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
                       Live Link
                     </button>
@@ -44,9 +44,9 @@ const Projects = () => {
             </div>
           ))}
         </div>
-        <div className="buttons flex justify-center mb-9 pb-9">
-          <a href="https://github.com/SaiChakri-d" target="_blank">
-            <button className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">
+        <div className="buttons flex justify-center mt-3 mb-9 pb-9">
+          <a href="https://github.com/SaiChakri-d?tab=repositories" target="_blank" rel="noreferrer">
+            <button className="focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-md px-5 py-2.5 mb-2 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">
               Find More
             </button>
           </a>

@@ -2,11 +2,6 @@ import React from "react";
 import ParticlesBg from "./ParticlesBg";
 import "../Global.css"
 const styles = {
-  bgImg: {
-    backgroundImage: "url(../assets/Snowbg-01.jpg)",
-    height: "calc100",
-  },
-
   centerFit: {
     height: "calc(100vh - 3.5rem)",
   },
