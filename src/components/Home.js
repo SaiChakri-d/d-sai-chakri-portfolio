@@ -1,6 +1,6 @@
 import React from "react";
 import ParticlesBg from "./ParticlesBg";
-import "../Global.css"
+import "../index.css"
 const styles = {
   centerFit: {
     height: "calc(100vh - 3.5rem)",
