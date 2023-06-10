@@ -19,13 +19,19 @@ code {
 
 /* main color scheme */
 :root {
-  --primary: #051094;
-  --secondary: #fff2b2;
-  --tertiary: #e1f2f7;
-  --accent: magenta;
-  --light: #eb3a70;
-  --white: #ffffff;
-  --black: #000000;
+  --primary: #0047AB;
+  --secondary: #fdde6c;
+  --tertiary: #e4e6eb;
+  --backbox: #ffffe0;
+  --fontcolor: #000000;
+}
+
+[data-theme="dark"] {
+  --primary: #fdde6c;
+  --secondary: #0047AB;
+  --tertiary: #242526;
+  --backbox: #555555;
+  --fontcolor: #ffffff;
 }
 
 .wave {

@@ -1,6 +1,7 @@
 import React from "react";
 import ParticlesBg from "./ParticlesBg";
-import "../index.css"
+import "../index.css";
+
 const styles = {
   centerFit: {
     height: "calc(100vh - 3.5rem)",
@@ -14,11 +15,11 @@ const styles = {
   },
   textHeading: {
     fontWeight: "bold",
-    color: "black",
+    color: "var(--fontcolor)",
   },
   textDescription: {
     padding: "5px 20px",
-    color: "black",
+    color: "var(--fontcolor)",
   },
 };
 
@@ -36,7 +37,7 @@ function Home() {
           Hi! My name is Sai Chakri D<span class="wave">👋</span>
         </div>
         <div className="text-xl md:text-3xl" style={styles.textDescription}>
-         I'm a Full Stack Developer Trainee
+          I'm a Full Stack Developer Trainee
         </div>
       </div>
       <ParticlesBg />

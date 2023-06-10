@@ -1,8 +1,10 @@
+import '../index.css'
+
 const particlesConfig = {
   autoPlay: true,
   background: {
     color: {
-      value: "#E1F2F7",
+      value: "var(--tertiary)"
     },
   },
   backgroundMask: {
@@ -191,7 +193,7 @@ const particlesConfig = {
       },
     },
     color: {
-      value: "#051094",
+      value: ["#051094", "#fff2b2", "#fff4f3", "#afc9ff", "#a87bff" ],
       animation: {
         h: {
           count: 0,

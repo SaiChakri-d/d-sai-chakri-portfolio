@@ -74,18 +74,18 @@ function Contact() {
           isValid,
         }) => (
           <Form ref={form} onSubmit={handleSubmit}>
-            <section className="text-gray-600 body-font">
+            <section className="body-font">
               <div className="text-center px-auto"></div>
               <div className="container px-7 sm:py-14 mx-auto flex">
-                <div className="lg:w-1/3 md:w-1/2 mt-0 bg-yellow-50 rounded-lg p-8 flex flex-col md:mx-auto w-full md:mt-0 z-10 shadow-md">
-                  <h2 className="text-center text-gray-900 text-3xl mb-3 font-medium title-font">
+                <div
+                  className="lg:w-1/3 md:w-1/2 mt-0 rounded-lg p-8 flex flex-col md:mx-auto w-full md:mt-0 z-10 shadow-md hover:shadow-lg"
+                  style={{ backgroundColor: "var(--backbox)" }}
+                >
+                  <h2 className="text-center text-3xl mb-3 font-medium title-font">
                     Send me a message
                   </h2>
                   <div className="relative mb-4">
-                    <label
-                      htmlFor="name"
-                      className="leading-10 text-lg text-gray-600"
-                    >
+                    <label htmlFor="name" className="leading-10 text-lg">
                       Name
                     </label>
                     <input
@@ -93,7 +93,7 @@ function Contact() {
                       id="name"
                       name="userName"
                       placeholder="Enter your name"
-                      className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                       value={values.userName}
                       onChange={handleChange}
                       onBlur={handleBlur}
@@ -103,10 +103,7 @@ function Contact() {
                     </div>
                   </div>
                   <div className="relative mb-4">
-                    <label
-                      htmlFor="email"
-                      className="leading-10 text-lg text-gray-600"
-                    >
+                    <label htmlFor="email" className="leading-10 text-lg">
                       Email
                     </label>
                     <input
@@ -114,7 +111,7 @@ function Contact() {
                       id="email"
                       name="userEmail"
                       placeholder="Enter your email"
-                      className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                      className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                       value={values.userEmail}
                       onChange={handleChange}
                       onBlur={handleBlur}
@@ -124,17 +121,14 @@ function Contact() {
                     </div>
                   </div>
                   <div className="relative mb-4">
-                    <label
-                      htmlFor="message"
-                      className="leading-10 text-lg text-gray-600"
-                    >
+                    <label htmlFor="message" className="leading-10 text-lg">
                       Message
                     </label>
                     <textarea
                       id="message"
                       name="message"
-                      placeholder="Write your message"
-                      className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                      placeholder="Write your message.."
+                      className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                       value={values.message}
                       onChange={handleChange}
                       onBlur={handleBlur}
@@ -145,14 +139,17 @@ function Contact() {
                   </div>
                   <button
                     type="submit"
-                    className="focus:outline-none text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-md px-5 py-2.5 mb-2 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-900"
+                    className="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-md px-5 py-2.5 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-900 shadow-md hover:shadow-lg transition duration-150 ease-in-out"
                   >
                     Submit
                   </button>
                 </div>
               </div>
               {/* Links */}
-              <div className="h-24 bg-slate-300 mt-5 flex justify-center space-x-5">
+              <div
+                className="h-24 mt-5 flex justify-center space-x-5"
+                style={{ backgroundColor: "var(--backbox)" }}
+              >
                 <div className="w-10 md:w-16">
                   <a
                     href="https://www.linkedin.com/in/sai-chakri-d-ba3546278/"
@@ -168,7 +165,7 @@ function Contact() {
                             color: "#0A66C2",
                           },
                           "&:active": {
-                            color: "#FEFCE8",
+                            color: "#bc544b",
                           },
                         }}
                       />
@@ -190,7 +187,7 @@ function Contact() {
                             color: "#6e5494",
                           },
                           "&:active": {
-                            color: "#FEFCE8",
+                            color: "#bc544b",
                           },
                         }}
                       />
@@ -212,7 +209,7 @@ function Contact() {
                             color: "#1da1f2",
                           },
                           "&:active": {
-                            color: "#FEFCE8",
+                            color: "#bc544b",
                           },
                         }}
                       />

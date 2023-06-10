@@ -14,27 +14,27 @@ export const techStack = [
   },
   {
     name: "HTML",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+    link: "https://www.svgrepo.com/show/349402/html5.svg",
   },
   {
     name: "CSS",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg",
+    link: "https://www.svgrepo.com/show/349330/css3.svg",
   },
   {
     name: "TypeScript",
-    link: "https://www.svgrepo.com/show/374146/typescript-official.svg",
+    link: "https://www.svgrepo.com/show/349540/typescript.svg",
   },
   {
-    name: "React",
-    link: "https://www.svgrepo.com/show/452092/react.svg",
+    name: "ReactJS",
+    link: "https://www.svgrepo.com/show/354259/react.svg",
   },
   {
     name: "Bootstrap",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg",
+    link: "https://www.svgrepo.com/show/303293/bootstrap-4-logo.svg",
   },
   {
     name: "Tailwind CSS",
-    link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+    link: "https://www.svgrepo.com/show/354431/tailwindcss-icon.svg",
   },
   {
     name: "NodeJS",
@@ -46,7 +46,7 @@ export const techStack = [
   },
   {
     name: "MySQL",
-    link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg",
+    link: "https://www.svgrepo.com/show/355133/mysql.svg",
   },
   {
     name: "MongoDB",

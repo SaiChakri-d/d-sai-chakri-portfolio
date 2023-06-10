@@ -7,10 +7,11 @@ import {
   ListItemText,
 } from "@mui/material";
 import CloseIcon from "@mui/icons-material/Close";
+import DarkMode from "../DarkMode";
 
 export const NavbarDrawer = ({ drawer, setDrawer, pages }) => {
   return (
-    <React.Fragment> 
+    <React.Fragment>
       <Drawer
         anchor="right"
         open={drawer}
@@ -22,7 +23,10 @@ export const NavbarDrawer = ({ drawer, setDrawer, pages }) => {
           style={{ paddingTop: "10px", backgroundColor: "var(--tertiary)" }}
         >
           <div style={{ padding: "10px 10px" }}>
-            <CloseIcon onClick={() => setDrawer(false)} />
+            <CloseIcon
+              onClick={() => setDrawer(false)}
+              style={{ color: "var(--fontcolor)" }}
+            />
           </div>
           {pages.map((page, index) => (
             <ListItemButton
@@ -32,12 +36,13 @@ export const NavbarDrawer = ({ drawer, setDrawer, pages }) => {
               onClick={() => setDrawer(false)}
             >
               <ListItemIcon>
-                <ListItemText>
+                <ListItemText style={{ color: "var(--fontcolor)" }}>
                   <span className="text-xl">{page.name}</span>
                 </ListItemText>
               </ListItemIcon>
             </ListItemButton>
           ))}
+          <DarkMode />
         </div>
       </Drawer>
     </React.Fragment>

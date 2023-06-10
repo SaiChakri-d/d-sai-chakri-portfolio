@@ -5,6 +5,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import { NavbarDrawer } from "./NavbarDrawer";
 import { pages } from "../Constants";
 import "./Navbar.css";
+import DarkMode from "../DarkMode";
 
 const Navbar = () => {
   const [drawer, setDrawer] = useState(false);
@@ -27,6 +28,7 @@ const Navbar = () => {
                 <span className="text-xl">{item.name}</span>
               </NavLink>
             ))}
+           <DarkMode />
           </div>
         ) : (
           <div className="right flex items-center">

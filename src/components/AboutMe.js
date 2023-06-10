@@ -2,6 +2,7 @@ import React from "react";
 import { techStack } from "../Constants";
 import { motion } from "framer-motion";
 import dpSai from "./dpSai1.jpg";
+import "../index.css";
 
 export default function AboutMe() {
   return (
@@ -49,7 +50,7 @@ export default function AboutMe() {
         >
           <button
             type="button"
-            className="focus:outline-none text-white bg-indigo-700 hover:bg-indigo-800 focus:ring-4 focus:ring-indigo-300 font-medium rounded-lg text-md px-5 py-2.5 mb-2 dark:bg-indigo-600 dark:hover:bg-indigo-700 dark:focus:ring-indigo-900"
+            className="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-md px-5 py-2.5 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-900 shadow-md hover:shadow-lg transition duration-150 ease-in-out"
           >
             Click Here For Resume
           </button>
@@ -65,7 +66,7 @@ export default function AboutMe() {
         </h1>
         {
           <div className="flex justify-center pb-9">
-            <motion.div className="flex flex-wrap mt-4 justify-center sm:justify-between">
+            <motion.div className="flex flex-wrap mt-4 justify-center sm:justify-between ">
               {techStack.map((el, index) => (
                 <motion.div
                   initial="hidden"
@@ -80,8 +81,9 @@ export default function AboutMe() {
                     },
                     hidden: { opacity: 1, y: 80 },
                   }}
-                  className="px-3 py-2 bg-yellow-50 m-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 rounded-lg flex items-center hover:scale-125 cursor-pointer md:w-48 w-40"
+                  className="px-3 py-2 m-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 rounded-lg flex items-center md:w-48 w-40 shadow-md cursor-pointer hover:shadow-lg hover:scale-105 ease-in-out"
                   key={index}
+                  style={{ backgroundColor: "var(--backbox)" }}
                 >
                   <img alt={`pic${index}`} src={el.link} className="w-12" />
                   <h4 className="text-md ml-3 text-center">{el.name}</h4>
