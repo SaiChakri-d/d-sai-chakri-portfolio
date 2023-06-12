@@ -24,6 +24,7 @@ code {
   --tertiary: #e4e6eb;
   --backbox: #ffffe0;
   --fontcolor: #000000;
+  --footer: #f7f7f7;
 }
 
 [data-theme="dark"] {
@@ -32,6 +33,7 @@ code {
   --tertiary: #242526;
   --backbox: #555555;
   --fontcolor: #ffffff;
+  --footer: #3a3b3c;
 }
 
 .wave {

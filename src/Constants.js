@@ -6,6 +6,7 @@ import YTclone from "./components/proimages/YTclone.png";
 import dshort from "./components/proimages/dshort.png";
 import chat from "./components/proimages/chitchat.png";
 import realtor from "./components/proimages/realtor.png";
+import portfolio from "./components/proimages/portfolio.png";
 
 export const techStack = [
   {
@@ -120,6 +121,14 @@ export const projects = [
     github: "https://github.com/SaiChakri-d/moneymanager-sai-frontend",
     netlify: "https://chkbudget-by-saichakri.netlify.app/",
     image: money,
+    description:
+      "Money Manager created using MERN stack, has adding transaction (income or expense), Transaction History page, allocating budget, all CRUD operations on money, info, etc.",
+  },
+  {
+    title: "Portfolio Website",
+    github: "https://github.com/SaiChakri-d/d-sai-chakri-portfolio",
+    netlify: "https://saichakri-d-portfolio.netlify.app/",
+    image: portfolio,
     description:
       "Money Manager created using MERN stack, has adding transaction (income or expense), Transaction History page, allocating budget, all CRUD operations on money, info, etc.",
   },
